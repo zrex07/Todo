@@ -5,7 +5,7 @@ import User from "../model/user-model"
 
 const router = express.Router()
 
-router.post("/registration", async(req, res)=>{
+router.post("/register", async(req, res)=>{
     
     try{
         const {name, email, password} = req.body;
